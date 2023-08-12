@@ -57,8 +57,9 @@ REST가 아키텍쳐인거 알았고 API는 통신하는 방법이라고 했다.
 
     1. REST API 기본
     CRUD method
-    POST POST를 통해서 URL를 요청하면 리소스를 생성
-    GET GET를 통해 리소스를 조회
-    PUT PUT를 통해서 리소스 수정
-    DELETE 리소스 삭제
-    
+    POST POST를 통해서 URL를 요청하면 리소스를 생성 -> Create
+    GET GET를 통해 리소스를 조회 -> Read
+    PUT PUT를 통해서 리소스 수정 -> Update
+    DELETE 리소스 삭제 -> Delete
+
+    2. GET and POST의 차이
