@@ -63,7 +63,8 @@ async def get_model(model_name: ModelName):
 def update_item(item_id:int,item:Item):
     return {"item_name":item.name,"item_id":item_id}
 
-#원래는 파일경로는 선언이 되지 못하고 야 이거 모르것당 먼말인지 경로를 변수화 할수 있단 말인겨ㅕ?
+#파일넘겨주는 방법
+#그냥 home/inseong/myfile.txt를 file_path에 넣어주면 댬
 @app.get("/files/{file_path:path}")
 async def read_file(file_path: str):
     return {"file_path": file_path}
